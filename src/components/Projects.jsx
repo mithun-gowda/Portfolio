@@ -4,7 +4,9 @@ import Card from "./Card";
 import netflix from "../assets/img/Netflix.png";
 import portfolio from "../assets/img/Portfolio.png"
 import homepage from "../assets/img/homepage.png";
-import weather from "../assets/img/weather_demo.png"
+import weather from "../assets/img/weather_demo.png";
+import calculator from "../assets/img/calculator_demo.png"
+import Devops from "../assets/img/devops.jpg"
 
 export default function Project() {
   const projects = [
@@ -25,7 +27,7 @@ export default function Project() {
       title: "Portfolio",
       description: "This platform showcases my skills, projects, and experience. The portfolio is built using Express and Node.js for the backend, Nodemailer for email functionality, and React with Bootstrap-React for the frontend.",
       imgURL: portfolio,
-      URL: "https://andrei-negrea-contact.onrender.com/",
+      URL: "https://main--stately-cascaron-ab7089.netlify.app/",
     },
     {
       title: "Netflix - Clone",
@@ -33,6 +35,20 @@ export default function Project() {
         "Step into a world of immersive entertainment with our Netflix-inspired UI, meticulously designed using CSS and HTML.",
       imgURL: netflix,
       URL: "https://mithun-gowda.github.io/netflix-clone/netflix.html",
+    },
+    {
+      title: "Calculator",
+      description:
+        "Simple calculator Application using Django Framework and Designed UI using HTML, CSS and Javascript",
+      imgURL: calculator,
+      URL: "https://django-calculator-mu.vercel.app/",
+    },
+    {
+      title: "DevOps",
+      description:
+        "Curated a portfolio of Docker projects leveraging a suite of cutting-edge technologies including AWS, Docker, Shell scripting, Jenkins, and Kubernetes. These projects encapsulate a diverse range of functionalities and applications, showcasing proficiency in containerization, automation, and orchestration within dynamic environments.",
+      imgURL: Devops,
+      URL: "https://github.com/mithun-gowda/DevOps-Projects",
     }
   ];
   return (

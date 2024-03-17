@@ -15,10 +15,12 @@ export default function Footer() {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/mithun-gowda/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://github.com/mithun-gowda" target="_blank"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://www.youtube.com/@WandererWithTech" target="_blank"><img src={navIcon3} alt="Icon" /></a>
-              <a href="https://www.instagram.com/mithun______gowda/" target="_blank"><img src={navIcon4} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/mithun-gowda/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://github.com/mithun-gowda" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://www.youtube.com/@WandererWithTech" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.instagram.com/mithun______gowda/" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Icon" /></a>
+              
+
             </div>
             <p>© 2024 Mithun Gowda. All rights reserved.</p>
           </Col>
