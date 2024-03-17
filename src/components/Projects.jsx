@@ -5,7 +5,7 @@ import netflix from "../assets/img/Netflix.png";
 import portfolio from "../assets/img/Portfolio.png"
 import homepage from "../assets/img/homepage.png";
 import weather from "../assets/img/weather_demo.png";
-import calculator from "../assets/img/calculator_demo.png"
+import calculator from "../assets/img/Calculator_demo.png";
 import Devops from "../assets/img/devops.jpg"
 
 export default function Project() {
